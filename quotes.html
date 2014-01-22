@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"/> -->
+        <meta name="viewport" content=" initial-scale=1.0" />
+        <meta name="author" content="Matthew Muiter">
+        <title>Insight</title>
+        <link rel="shortcut icon" href="./../photos/quotes.ico">
+        <link type="text/css" href="./quotes.css" rel="stylesheet">
+    </head>
+    <body>
+        <div>
+            <h1>Quotes for Influence</h1>
+        </div>
+
+        <div id="json">
+            <img src = "./../photos/refresher_size24.png"  alt="refresh icon" id="refresher"/>  
+            <p id="quote"></p>
+            <p id="author"></p>
+        </div>
+
+        <div id="addQuoteDiv">
+            <p id="wannaAddQuote">Feeling influential? Add a quote.</p>
+        </div>
+
+        <div id="addingQuotesDiv" class="hide">
+            <p>Quote:</p><textarea rows="6" cols="50" id="addQuote" name="quoteToAdd"></textarea>
+            <p>Author:</p><textarea rows="2" cols="50" id="addAuthor" name="authorToAdd"></textarea>
+            <button type="button" id="add">Add Quote</button>
+        </div>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script type="text/javascript" src="./quotes.js"></script>
+    </body>
+
+</html>

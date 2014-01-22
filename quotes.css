@@ -1,0 +1,165 @@
+
+@font-face {
+    font-family: Wisdom;
+    src: url("../../examples/fonts/Wisdom_Script.otf");
+}
+
+@font-face {
+    font-family: Gotham;
+    src: url("../../examples/fonts/Gotham_Rounded_Light.otf");
+}
+
+html {
+    background-color:#404040;
+    font-family: 'Gotham', sans-serif;
+}
+
+h1, p {
+    color:white;
+}
+
+h1{
+    text-align: center;
+    color:#EB394C;
+    font-family: 'Wisdom', sans-serif;
+    margin: .4em;
+    font-size: 2.5em;
+}
+
+#quoteAdded {
+    text-align: center;
+    margin-top: 2em;
+    color:#EB394C;
+}
+
+#json {
+    border: 3px solid #28BAA7;
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#quote {
+    margin: 1em;
+    margin-left: 2em;
+    font-size: 1.3em;
+    padding
+}
+
+#author {
+    font-size: 1.3em;
+    float:right;
+    margin-right: 3em;
+}
+
+#refresher {
+    cursor: pointer;
+    float: right;
+    padding-right: .5em;
+    padding-top: .5em;
+}
+
+#wannaAddQuote:hover {
+    cursor: pointer;
+    color:#EB394C;
+}
+
+form {
+    margin-bottom: 1em;
+}
+
+#addingQuotesDiv > textarea {
+    font-family: 'Gotham', sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #DEDEDE;
+    width: 50%;
+}
+
+#addingQuotesDiv > p {
+    text-align: center;
+}
+
+#wannaAddQuote {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 5em;
+    font-size: 1.1em;
+}
+
+.hide {
+    display:none;
+}
+
+.show {
+    display: block;
+}
+
+button {
+    display: block;
+    font-family: 'Gotham', sans-serif;
+    background-color: #404040;
+    color:white; 
+    font-size: 1em;
+    padding: .5em;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #28BAA7;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+button:hover {
+    cursor: pointer;
+    color:#EB394C;
+}
+
+@media (max-width: 1000px) {
+    #json {
+        width: 95%;
+    }
+
+    #quote {
+        padding: 1em;
+        padding-right: .5em;
+        font-size: 1em;
+        margin:0;
+    }
+
+    #author {
+        margin-left: .5em;
+        font-size: 1em;
+        margin-right: .5em;
+    }
+
+    #wannaAddQuote {
+        margin-top: 2em;
+        font-size: 1.2em;
+    }
+
+    #addingQuotesDiv > p {
+        font-size: 1.2em;
+    }
+
+    #addingQuotesDiv > textarea {
+        margin-bottom: 2em;
+        width:75%;    
+    }
+
+    #refresher {
+        padding-right: 1em;
+        padding-top: 1em;
+        margin-left: .5em;
+    }
+
+    button {
+        font-size: 1.2em;
+        margin-top: 0;
+    }
+    
+}
